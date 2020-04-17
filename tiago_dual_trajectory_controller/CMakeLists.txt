@@ -10,9 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package()
 
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+include_directories(SYSTEM ${catkin_INCLUDE_DIRS})
 
 add_executable(run_dual_traj_control src/run_dual_traj_control.cpp)
 target_link_libraries(run_dual_traj_control ${catkin_LIBRARIES})

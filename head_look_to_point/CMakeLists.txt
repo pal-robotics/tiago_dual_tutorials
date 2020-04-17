@@ -17,9 +17,7 @@ find_package(OpenCV REQUIRED
 
 catkin_package()
 
-include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+include_directories(SYSTEM ${catkin_INCLUDE_DIRS})
 
 add_executable(head_look_to_point src/head_look_to_point.cpp)
 target_link_libraries(head_look_to_point
