@@ -1,4 +1,4 @@
-- git: {local-name: aruco_ros,                    uri: 'https://github.com/pal-robotics/aruco_ros.git', version: 'kinetic-devel'}
+- git: {local-name: aruco_ros,                    uri: 'https://github.com/pal-robotics/aruco_ros.git', version: 'melodic-devel'}
 - git: {local-name: gazebo_ros_pkgs,              uri: 'https://github.com/pal-robotics-forks/gazebo_ros_pkgs.git', version: 'melodic-devel'}
 - git: {local-name: head_action,                  uri: 'https://github.com/pal-robotics/head_action.git', version: 'indigo-devel'}
 - git: {local-name: hey5_description,             uri: 'https://github.com/pal-robotics/hey5_description.git', version: 'master'}
