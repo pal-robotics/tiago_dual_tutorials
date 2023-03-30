@@ -48,7 +48,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-catkin-tools \
     ros-noetic-actionlib-tools \
     ros-noetic-moveit-commander \
-  && rm -rf /var/lib/apt/lists/*
+  && rm -rf /var/lib/apt/lists/* \
   && wget https://raw.githubusercontent.com/pal-robotics/tiago_dual_tutorials/master/tiago_dual_public-noetic.rosinstall \
   && vcs import src < tiago_dual_public-noetic.rosinstall
 
